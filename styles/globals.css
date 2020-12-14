@@ -1,3 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
 html,
 body {
   padding: 0;
@@ -17,10 +19,44 @@ a {
 
 .screen {
   background: url("https://www.mobygames.com/images/promo/original/fac92af5bc3f4f74bf3fb172693dcf59.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 1920px;
   height: 1080px;
-  /* max-width: 100%; */
   overflow: hidden;
 }
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px;
+}
+header .media-nav .active {
+  font-weight: 700;
+  color: #fff;
+}
+header .settings {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header .settings .fa {
+  font-size: 2rem;
+  color: #fff;
+}
+header .settings .user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+header .settings .time {
+  font-size: 2rem;
+  color: #fff;
+}
+/* .user {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+} */

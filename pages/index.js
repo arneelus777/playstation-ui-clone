@@ -21,9 +21,8 @@ export default function Home() {
           <span className="icon">
             <img
               className="user"
-              src="https://i.ibb.co/wKbtDJ9/33038325-1911711708859344-867365166503690240-n-1.jpg"
-              width="150px"
-            ></img>
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+            />
           </span>
           <span className="time">8:06 PM</span>
         </section>
